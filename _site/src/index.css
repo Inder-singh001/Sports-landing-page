@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+@media (width < 700px){
+
+    nav span::before, span::after{
+        background-color: white;
+    }
+}
